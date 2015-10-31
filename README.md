@@ -134,6 +134,20 @@ Returns account representation.
         }
     ```
     
+## Delete account
+
+Deletes spectific account.
+
+* **REQUEST**
+    * **URL:** `/users/(user_id)/accounts/(account_id)`
+    * **Method:** `DELETE`
+
+* **RESPONSE**
+    * **Content-Type:** `application/json`
+    * **Code:**
+        *  Success: `200 HTTP_OK`
+        *  Fail: `404 HTTP_NOT_FOUND`
+    
 ## Add transaction
 
 Adds transaction for specific account.
@@ -172,6 +186,20 @@ Edits spectific transaction.
             "note": "Found on the street."
         }
     ```
+
+* **RESPONSE**
+    * **Content-Type:** `application/json`
+    * **Code:**
+        *  Success: `200 HTTP_OK`
+        *  Fail: `404 HTTP_NOT_FOUND`
+
+## Delete transaction
+
+Deletes spectific transaction.
+
+* **REQUEST**
+    * **URL:** `/users/(user_id)/accounts/(account_id)/transactions/(transaction_id)`
+    * **Method:** `DELETE`
 
 * **RESPONSE**
     * **Content-Type:** `application/json`
