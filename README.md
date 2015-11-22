@@ -6,6 +6,7 @@ Count your money? Easy.
 ## Notes:
 - We don't care about numeration/sequence/timing of ids. So we expect server to generate them.
 - I chose REST because my system well adapts to resource oriented paradigm.
+- `timestamp` is Unix epoch time.
 
 ## Get user
 
@@ -94,8 +95,10 @@ Create account for specific user.
 * **RESPONSE**
     * **Content-Type:** `application/json`
     * **Code:**
-        *  Success: `200 HTTP_OK`
+        *  Success: `201 HTTP_CREATED`
         *  Fail: `404 HTTP_NOT_FOUND`
+    * **Headers:**
+        *  Location: `/users/(user_id)/accounts`
     * **Body:**
     ```json
     {
@@ -158,7 +161,6 @@ Adds transaction for specific account.
     * **Body:**
     ```json
         {
-            "transaction_id": "kjdsbkaljv342",
             "timestamp": "145235412341",
             "amount": "-40",
             "note": "Lunch at KFC."
@@ -168,30 +170,16 @@ Adds transaction for specific account.
 * **RESPONSE**
     * **Content-Type:** `application/json`
     * **Code:**
-        *  Success: `200 HTTP_OK`
+        *  Success: `201 HTTP_CREATED`
         *  Fail: `404 HTTP_NOT_FOUND`
-
-## Edit transaction
-
-Edits spectific transaction.
-
-* **REQUEST**
-    * **URL:** `/users/(user_id)/accounts/(account_id)/transactions/(transaction_id)`
-    * **Method:** `PATCH`
+    * **Headers:**
+        *  Location: `/users/(user_id)/accounts/(account_id)/transactions`
     * **Body:**
     ```json
-        {
-            "timestamp": "14523234441",
-            "amount": "20",
-            "note": "Found on the street."
-        }
+     {
+        "transaction_id": "kjdsbkaljv342"
+     }
     ```
-
-* **RESPONSE**
-    * **Content-Type:** `application/json`
-    * **Code:**
-        *  Success: `200 HTTP_OK`
-        *  Fail: `404 HTTP_NOT_FOUND`
 
 ## Delete transaction
 
