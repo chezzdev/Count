@@ -1,0 +1,8 @@
+libfastcgi-daemon2_2.10-26_amd64.deb libs optional
+libfastcgi-daemon2-dev_2.10-26_amd64.deb libdevel optional
+libfastcgi2-syslog_2.10-26_amd64.deb libs optional
+libfastcgi2-filelogger_2.10-26_amd64.deb libs optional
+libfastcgi2-request-cache_2.10-26_amd64.deb libs optional
+libfastcgi2-statistics_2.10-26_amd64.deb libs optional
+fastcgi-daemon2_2.10-26_amd64.deb libs optional
+fastcgi-daemon2-init_2.10-26_amd64.deb libs optional

@@ -1,0 +1,11 @@
+Package: libfastcgi2-request-cache
+Source: fastcgi-daemon2
+Version: 2.10-26
+Architecture: amd64
+Maintainer: Ilya Golubtsov <golubtsov@yandex-team.ru>
+Installed-Size: 1396
+Depends: libc6 (>= 2.14), libfastcgi-daemon2 (= 2.10-26), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.6)
+Section: libs
+Priority: optional
+Description: fastcgi-daemon is an application server for FastCGI
+ applications wtiteen in C++. Binary to execute server.

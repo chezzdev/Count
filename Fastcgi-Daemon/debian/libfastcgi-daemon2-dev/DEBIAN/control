@@ -1,0 +1,11 @@
+Package: libfastcgi-daemon2-dev
+Source: fastcgi-daemon2
+Version: 2.10-26
+Architecture: amd64
+Maintainer: Ilya Golubtsov <golubtsov@yandex-team.ru>
+Installed-Size: 15983
+Depends: libfastcgi-daemon2 (= 2.10-26), libboost-regex-dev, libfcgi-dev
+Section: libdevel
+Priority: optional
+Description: fastcgi-daemon is an application server for FastCGI
+ applications wtiteen in C++. Headers and libraries to develop modules.

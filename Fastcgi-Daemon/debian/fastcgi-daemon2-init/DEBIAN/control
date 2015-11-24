@@ -1,0 +1,10 @@
+Package: fastcgi-daemon2-init
+Source: fastcgi-daemon2
+Version: 2.10-26
+Architecture: amd64
+Maintainer: Ilya Golubtsov <golubtsov@yandex-team.ru>
+Installed-Size: 47
+Depends: fastcgi-daemon2 (= 2.10-26)
+Section: libs
+Priority: optional
+Description: fastcgi-daemon-init is init scripts packet for fastcgi-daemon

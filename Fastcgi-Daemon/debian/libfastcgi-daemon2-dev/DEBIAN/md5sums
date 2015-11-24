@@ -1,0 +1,16 @@
+10d5d6d40991aa4ed1989a6146331a6c  usr/include/fastcgi2/component.h
+da148d887c787ba1f3199d71643a2645  usr/include/fastcgi2/component_factory.h
+73d5c63670f7e80106ce2774d063fe92  usr/include/fastcgi2/config.h
+ebb876cbd0381e21c51bf4a225a8129c  usr/include/fastcgi2/cookie.h
+37ac91119eb6bc9ed4a79fdd9fa88c47  usr/include/fastcgi2/data_buffer.h
+0f61f9d77de7ed0bba03bd4d75ce922c  usr/include/fastcgi2/except.h
+2baaf8dd8ca5168786d83d3e69456d92  usr/include/fastcgi2/handler.h
+72d5a3bc68785532f875f80687c8f13c  usr/include/fastcgi2/helpers.h
+2fd978cf257fcd8e4b9f03e885ba894a  usr/include/fastcgi2/logger.h
+d3153d4300194361159feac86396687e  usr/include/fastcgi2/request.h
+eb7c3855797e7457527b72cc8cc98fc5  usr/include/fastcgi2/request_io_stream.h
+596e01424d74657828812dd7c4ad89e7  usr/include/fastcgi2/stream.h
+7bae5b18a3cfee4fa591287e4cb62eaa  usr/include/fastcgi2/util.h
+5db10968af7fe2be3be7792b094e1041  usr/lib/libfastcgi-daemon2.a
+28239781ffd4bc36dd76fc1c7c81a0d4  usr/lib/libfastcgi-daemon2.la
+f5b2abb08dbceb0575777a6641663328  usr/share/doc/libfastcgi-daemon2-dev/changelog.Debian.gz
