@@ -1,6 +1,13 @@
 # Count
 Count your money? Easy.
 
+Implementation of distributed server system which tracks money transactions / balance summaries for high amout of users.
+
+Technologies used:
+- web-server: nginx
+- client-server protocol: FastCGI ([FastCGI-Daemon](https://github.com/lmovsesjan/Fastcgi-Daemon))
+- database: MongoDB
+
 # API (REST)
 
 ## Notes:
