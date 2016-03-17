@@ -1,2 +1,0 @@
-shlibs:Depends=libboost-system1.54.0, libboost-thread1.54.0, libc6 (>= 2.14), libfastcgi-daemon2, libfcgi0ldbl, libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.6)
-misc:Depends=
